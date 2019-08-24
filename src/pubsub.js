@@ -7,12 +7,14 @@ export * from './topics'
  * The Main Subject/Stream to be listened on.
  */
 const mainSubject = new Subject()
+
 /**
  * This function is used to publish data to the Subject via next().
  *
  * @param {*} data
  */
 export const publish = (topic, data) => mainSubject.next({ topic, data })
+
 /**
  * Subscriber component which is used to listen to a "topic".
  */

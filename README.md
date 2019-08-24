@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React RxJS test app. Test publishing and receiving topic, and weather data.
 
 ## Available Scripts
 
